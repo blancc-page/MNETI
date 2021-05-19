@@ -1,3 +1,1 @@
-Mneti Landing Page
-
-https://blancc-page.github.io/MNETI/
+TinDog Starting Files
