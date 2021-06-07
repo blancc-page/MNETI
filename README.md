@@ -1,3 +1,1 @@
-# MNETI WAVE 
-
-https://blancc-page.github.io/MNETI/
+TinDog Starting Files

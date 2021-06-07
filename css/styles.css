@@ -1,7 +1,6 @@
 body {
   font-family: "Montserrat", serif;
-  color: #40514e;
-  text-align: left;
+  text-align: center;
   overflow-x: clip;
 }
 
@@ -10,14 +9,12 @@ body {
   margin: 0 0 1rem;
 }
 .navbar-brand {
-  text-align: center;
   margin-left: 12rem;
   margin-top: 5rem;
   font-weight: 800;
   font-size: 2.5rem;
 }
 .nav-item {
-  color: #025e73;
   padding: 0 30px;
 }
 .nav-link {
@@ -38,19 +35,26 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Montserrat";
   font-weight: bold;
 }
 
+/* Color Section */
+
+.white-section {
+  background-color: #eaf6f6;
+  color: #40514e;
+}
+.blue-section {
+  background-color: #03a696;
+  color: #eaf6f6;
+}
 /* Title Section */
 
 #title {
-  background-color: #eaf6f6;
   height: 44rem;
+  text-align: left;
 }
 .title-heading {
-  font-family: "Montserrat", serif;
-  font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -70,16 +74,13 @@ h3 {
 
 #features {
   position: relative;
-  color: #eaf6f6;
-  background-color: #03a696;
-  text-align: center;
   padding: 7% 15%;
   z-index: 2;
 }
 .feature-box {
   padding: 30px;
 }
-p {
+#features p {
   color: #66bfbf;
 }
 .feature-section {
@@ -96,27 +97,22 @@ p {
 /* Pricing Section */
 
 #pricing {
-  text-align: center;
-  color: #40514e;
   padding: 100px;
-  background-color: #eaf6f6;
 }
 .pricing-column {
   padding: 3% 2%;
+
 }
 .pricing-p {
   color: #025e73;
 }
 
+
 /* Call to Action Section */
 
 #cta {
   padding: 50px;
-  font-family: "Montserrat";
-  font-weight: 900;
-  text-align: center;
   line-height: 2;
-  background-color: #03a696;
   color: #40514e;
 }
 .dowload-button-cta {
@@ -130,7 +126,6 @@ p {
 /* Footer Section */
 
 #footer {
-  text-align: center;
   padding: 20px;
   margin-top: 30px;
 }
@@ -140,7 +135,9 @@ p {
 .footer-icon:hover {
   color: #ff5722;
 }
-
+#footer.white-section{
+margin: 0;
+}
 /* Media Queries */
 @media (max-width: 1280px) {
   .wave-logo {
@@ -168,13 +165,12 @@ p {
     position: static;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 350px) and (max-width: 992px) {
   #title {
     text-align: center;
-    height: 55rem;
+    height: 56rem;
   }
   .navbar-brand {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
